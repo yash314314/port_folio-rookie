@@ -1,0 +1,108 @@
+#head {
+    padding: 40px;
+    text-align: center;
+    font-family: "montserrat", sans-serif;
+    font-size: 30px;margin-bottom: 120px;
+    display: inline-block;
+    position: relative;
+    left: 650px;
+    width: 50%;
+}
+#head2 {
+    padding: 10px;
+    text-align: center;
+    font-weight: 1;
+    font-size: 20px;
+}
+#dn {
+    background-color: #f1f1f1;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    width: auto;
+    margin-top: 10px;
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+    cursor: pointer;
+    -webkit-transition: color 0.5s;
+    -moz-transition: color 0.5s;
+    -ms-transition: color 0.5s;
+    -o-transition: color 0.5s;
+}
+#dn:hover {
+    background-color: rgb(75, 76, 76);
+    color: #d9d9d9;
+}
+#sideimg {
+    background-image: url('99eb9776-e16b-459f-94c3-ded7b3a47866 (3).jpg');
+    background-attachment: fixed;
+    display: inline-block;
+}
+ body {
+    background-image: url('99eb9776-e16b-459f-94c3-ded7b3a47866 (3).jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    animation: fadein 2s forwards;
+    opacity: 0;
+    -webkit-animation: fadein 2s forwards;
+    margin-top: 50px;
+}
+@keyframes fadein {
+    100%{opacity: 1;
+    margin-top: 0px;}
+}
+  
+ #cont {
+    font-size: 15px;
+    font-family: montserrat;
+    display: inline-block;
+    position: relative;
+    left: 650px;
+    width: 50%;
+ } 
+ img {
+    margin: 10px;
+    filter: grayscale(100);
+    -webkit-filter: grayscale(100);
+    overflow: auto;
+}
+#ph {
+    margin: 10px;
+    height: 30px;
+    width: 100%;
+    background-color: #d9d9d9;
+
+}
+.form {
+    width: 100%;
+    height: 40px;
+    font-family: montserrat ;
+    padding: 10px;
+
+}
+.bt {
+    font-family: montserrat ;
+    padding: 10px;
+    height: auto;
+    width: 30%;
+    cursor: pointer;transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+.bt:hover{
+    background-color: rgb(75, 76, 76);
+    color: #d9d9d9;
+}
+#foot {
+    width: 100%;
+    background-color: #f4f4f4;
+    text-align: center;
+    height: 30%;
+    font-size: 30px;
+    padding-top: 50px;
+}
+i:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
